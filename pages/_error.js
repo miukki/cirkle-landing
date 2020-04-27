@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import dynamic from 'next/dynamic'
+
 import React from 'react'
 import {Fonts} from '../utils/fontsLoader'
 import Grid from '@material-ui/core/Grid'
