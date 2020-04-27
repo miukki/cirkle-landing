@@ -5,8 +5,21 @@ yarn
 
 Run container
 ```
+
+#remove
 docker stop $(docker ps -a -q)
+docker rm `docker ps -qa`
+docker rmi -f `docker images -qa `
+docker volume rm $(docker volume ls -qf dangling=true)
+
+#check 
+docker ps -a
+docker image ls --no-trunc
+
+#build
 docker build -t cirklecobuytech .
+
+#run
 docker run -d -p 3000:3000 cirklecobuytech:latest
 ```
 
