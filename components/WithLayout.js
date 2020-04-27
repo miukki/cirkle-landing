@@ -1,6 +1,6 @@
 // components/MyLayout.js
 
-import Header from './HeaderBLock'
+import Header from './HeaderBlock'
 
 const layoutStyle = {
   margin: 20,

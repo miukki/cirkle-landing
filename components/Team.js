@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
-import { CustomGrid, SubTitle, Paragraph} from '../utils/styledElems.js'
-import { mediaGrid }        from '../utils/styleUtils.js'
+import {CustomGrid, SubTitle, Paragraph} from '../utils/styledElems'
+import {mediaGrid} from '../utils/styleUtils'
 
 import Hidden from '@material-ui/core/Hidden'
 
@@ -51,7 +51,8 @@ const CardStyled = styled(Card)`
 const CardContentStyled = styled(CardContent)`
   && {
     padding: 0 30px;
-    ${mediaGrid(`sm`)}{//xs phone
+    ${mediaGrid(`sm`)} {
+      //xs phone
       padding: 0 20px;
     }
   }
@@ -75,7 +76,7 @@ const members = [
 ]
 
 const ParagraphCustom = styled(Paragraph)`
- && {
+  && {
     font-size: 11px;
     line-height: 2.09;
     letter-spacing: 0.2px;
@@ -86,35 +87,27 @@ const ParagraphCustom = styled(Paragraph)`
 
 const Name = styled(Typography)`
   && {
-    font-family: "nimbus-sans-extended", sans-serif;
+    font-family: 'nimbus-sans-extended', sans-serif;
     font-size: 18px;
     color: #5bb89f;
-    font-weight:normal;
+    font-weight: normal;
     letter-spacing: 0.33px;
     line-height: 1.28;
     margin-top: 1.2em;
   }
-`;
+`
 
 const Title = styled(SubTitle)`
-&& {
- margin-bottom: 4em;
-}
-`;
-
+  && {
+    margin-bottom: 4em;
+  }
+`
 
 const WhyCirkle = () => (
   <Root>
-  
-    <Title
-      component="h2"
-      variant="h2"
-      align="center"
-      gutterBottom
-    >
+    <Title component="h2" variant="h2" align="center" gutterBottom>
       MEET THE TEAM
     </Title>
-
 
     <Grid container direction="row" justify="center">
       <Grid item xs={10} sm={8}>
@@ -122,7 +115,6 @@ const WhyCirkle = () => (
           {members.map(member => (
             <Grid item key={member.title} xs={12} md={6}>
               <CardStyled>
-  
                 <a target="blank" href={member.linkedin}>
                   <AvatarStyled alt={member.title} src={member.src} />
                 </a>
@@ -135,7 +127,6 @@ const WhyCirkle = () => (
                     {member.description}
                   </ParagraphCustom>
                 </CardContentStyled>
-    
               </CardStyled>
             </Grid>
           ))}

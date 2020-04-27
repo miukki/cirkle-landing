@@ -7,7 +7,7 @@ import {
   SubTitle,
   Paragraph,
   InputEmail,
-} from '../utils/styledElems.js'
+} from '../utils/styledElems'
 
 const ParagraphCustom = styled(Paragraph)`
   && {

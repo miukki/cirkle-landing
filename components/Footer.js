@@ -8,9 +8,9 @@ import {
   SubTitle,
   Paragraph,
   InputEmail,
-} from '../utils/styledElems.js'
-import {mediaGrid} from '../utils/styleUtils.js'
-import SubmitForm from '../components/SubmitForm.js'
+} from '../utils/styledElems'
+import {mediaGrid} from '../utils/styleUtils'
+import SubmitForm from '../components/SubmitForm'
 
 const Table = styled(CustomGrid)`
   && {

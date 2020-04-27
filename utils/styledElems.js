@@ -1,6 +1,6 @@
 import ButtonBase from '@material-ui/core/ButtonBase'
 import styled from 'styled-components'
-import {mediaGrid} from './styleUtils.js'
+import {mediaGrid} from './styleUtils'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 

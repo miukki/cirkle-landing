@@ -1,8 +1,8 @@
 import Grid from '@material-ui/core/Grid'
 import styled from 'styled-components'
 import Typography from '@material-ui/core/Typography'
-import {ButtonCustom, CustomGrid} from '../utils/styledElems.js'
-import {mediaGrid} from '../utils/styleUtils.js'
+import {ButtonCustom, CustomGrid} from '../utils/styledElems'
+import {mediaGrid} from '../utils/styleUtils'
 import Link from 'next/link'
 
 const FindOutMore = styled(ButtonCustom)`
@@ -43,7 +43,7 @@ const Root = styled(Grid)`
   && {
   }
 `
-const HeaderBLock = () => (
+const HeaderBlock = () => (
   <Root>
     <CustomGrid container justify="center" height={'700px'}>
       <Grid item xs={10} sm={8} md={8}>
@@ -107,4 +107,4 @@ const HeaderBLock = () => (
   </Root>
 )
 
-export default HeaderBLock
+export default HeaderBlock

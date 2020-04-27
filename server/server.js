@@ -1,4 +1,3 @@
-
 const express = require('express')
 const next = require('next')
 
@@ -7,8 +6,8 @@ const app = next({dev, dir: '.'})
 const handle = app.getRequestHandler()
 const bodyParser = require('body-parser')
 
-// const SendEmail = require('./google-mailer.js')
-const SendEmail = require('./sendgrid-mailer.js')
+// const SendEmail = require('./google-mailer')
+const SendEmail = require('./sendgrid-mailer')
 
 app
   .prepare()
@@ -29,25 +28,26 @@ app
     // })
 
     server.use(bodyParser.json())
-    
+
     server.get('*', (req, res) => {
       // console.log('req', req);
       return handle(req, res)
     })
 
     server.post('/api/submit', (req, res) => {
-      const { email = '', name = '', message = '' } = req.body
+      const {email = '', name = '', message = ''} = req.body
 
-      SendEmail({ email, name, text: message }).then((resp) => {
-        console.log('resp', resp)
-        res.send(resp)
-      }).catch((error) => {
-        console.log('error', error)
-        res.send(error)
-      })
+      SendEmail({email, name, text: message})
+        .then(resp => {
+          console.log('resp', resp)
+          res.send(resp)
+        })
+        .catch(error => {
+          console.log('error', error)
+          res.send(error)
+        })
 
       // res.send('success')
-      
     })
 
     server.listen(3000, err => {

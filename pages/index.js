@@ -16,7 +16,7 @@ const FindOutMore = dynamic(() => import('../components/FindOutMore'), {
   ssr: false,
 })
 
-const SubmitBLock = dynamic(() => import('../components/SubmitBLock'), {
+const SubmitBLock = dynamic(() => import('../components/SubmitBlock'), {
   ssr: false,
 })
 
@@ -32,7 +32,7 @@ const Team = dynamic(() => import('../components/Team'), {
   ssr: false,
 })
 
-import {Fonts} from '../utils/fontsLoader.js'
+import {Fonts} from '../utils/fontsLoader'
 
 const BgImage = styled(Grid)`
   && {

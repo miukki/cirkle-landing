@@ -119,7 +119,7 @@ const IconLogo = ({color}) => {
   )
 }
 
-const HeaderBLock = () => (
+const HeaderBlock = () => (
   <Root>
     <Container>
       <LogoBlock>
@@ -134,4 +134,4 @@ const HeaderBLock = () => (
   </Root>
 )
 
-export default HeaderBLock
+export default HeaderBlock

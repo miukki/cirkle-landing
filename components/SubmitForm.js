@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {ButtonCustom, InputEmail} from '../utils/styledElems.js'
+import {ButtonCustom, InputEmail} from '../utils/styledElems'
 import {Component} from 'react'
 import {createForm, createFactory, createField} from 'micro-form'
 

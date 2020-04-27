@@ -1,4 +1,4 @@
-import Header from './HeaderBLock'
+import Header from './HeaderBlock'
 import Link from 'next/link'
 
 const layoutStyle = {
