@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 import styled from 'styled-components'
 import Grid from '@material-ui/core/Grid'
 
-const HeaderBLock = dynamic(() => import('../components/HeaderBLock'), {
+const HeaderBlock = dynamic(() => import('../components/HeaderBlock'), {
   ssr: false,
 })
 
@@ -70,7 +70,7 @@ class Index extends React.Component {
 
         <Layout>
           <BgImage>
-            <HeaderBLock />
+            <HeaderBlock />
             <FindOutMore />
           </BgImage>
 
