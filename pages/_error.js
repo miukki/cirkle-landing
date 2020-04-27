@@ -96,7 +96,7 @@ class Error extends React.Component {
         </Head>
 
         <Layout>
-          <HeaderBLock />
+          <HeaderBlock />
 
           <Grid container justify="center">
             <Grid item xs={10} sm={8} md={8}>
