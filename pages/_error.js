@@ -1,14 +1,22 @@
 import Head from 'next/head'
+import dynamic from 'next/dynamic'
+
 import React from 'react'
 import {Fonts} from '../utils/fontsLoader'
-import Layout from '../components/MyLayout'
-import HeaderBlock from '../components/HeaderBlock'
 import Grid from '@material-ui/core/Grid'
 import styled from 'styled-components'
 import Typography from '@material-ui/core/Typography'
 import {ButtonCustom} from '../utils/styledElems'
 import {mediaGrid} from '../utils/styleUtils'
 import Link from 'next/link'
+
+const HeaderBlock = dynamic(() => import('../components/HeaderBlock'), {
+  ssr: false,
+})
+
+const Layout = dynamic(() => import('../components/MyLayout'), {
+  ssr: false,
+})
 
 const TakeMeHome = styled(ButtonCustom)`
   && {
@@ -90,7 +98,7 @@ class Error extends React.Component {
         </Head>
 
         <Layout>
-          <HeaderBLock />
+          <HeaderBlock />
 
           <Grid container justify="center">
             <Grid item xs={10} sm={8} md={8}>
