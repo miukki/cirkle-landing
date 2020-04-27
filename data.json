@@ -1,0 +1,323 @@
+{
+    "qrcode": "http://cirkle-sg.s3-website-ap-southeast-1.amazonaws.com/",
+    "menu": [
+      {"title": "ABOUT", "to": "about"},
+      {"title": "FEATURES", "to": "features"},
+      {"title": "WHITE PAPER", "to": "wp"},
+      {"title": "TEAM", "to": "founding"},
+      {"title": "PARTNERS", "to": "partners"}
+
+    ],
+    "features" : [
+        {
+          "title": "CO-BUY",
+          "descr": "Share the dress. Share the cost. Own Less. Access More.",
+          "type": "co-buy"
+        },
+        {
+          "title": "AI STYLING",
+          "descr": "Allow us to learn your style. Connect, interact and share with your style groups.",
+          "type": "ai"
+        },
+        {
+          "title": "SIZE & FIT",
+          "descr": "We take the guess work out of online shopping with AI Smart Fittings.",
+          "type": "size"
+        },
+        {
+            "title": "BLOCKCHAIN",
+            "descr": "Transparency, security and trust economy.",
+            "type": "blockchain"
+        }, 
+        {
+            "title": "REWARDS",
+            "descr": "Incentives for beneficial collaboration and value adding services",
+            "type": "rewards"
+        }, 
+        {
+            "title": "DATA & ANALYTICS",
+            "descr": "Simple easy to understand actionable statistics",
+            "type": "analytics"
+        } 
+      
+    ],
+    "team": [
+        {
+          "name": "Julia Sun",
+          "role": "CO-FOUNDER & CEO",
+          "linkedin": "julia-sun-9b0961136",
+          "url": "julia",
+          "description": "<p>Julia has over 8 years of&nbsp;experience in&nbsp;financial advisory, managing investment portfolios for high net worth individuals and small enterprises across Australia and China.</p><p>A&nbsp;fashionista and avid shopper, she also runs an&nbsp;online business in&nbsp;selling and renting <nobr>pre-owned</nobr> apparel. Her passion for <nobr>e-commerce</nobr> and sustainability has seen her recent move into the tech world, where she is&nbsp;dedicated to&nbsp;creating a&nbsp;shared economy platform that will change the way we&nbsp;consume.</p>"
+        },
+        {
+          "name": "Anja Ishmukhametova",
+          "role": "CO-FOUNDER & CTO",
+          "linkedin": "miukki",
+          "url": "miukki",
+          "description": "Anja is a full stack engineer with +13 years of experience in engineering. A blockchain enthusiast, miner (GPU, sha256), Dapp developer (Nebulas development, EOS protocol, participating EOS Nation community), Anja brings expertise in mobile React-Native development, Technical management, Smart Contract experience, Architecture skills."
+
+        },
+        {
+          "name": "Sylvia Lo",
+          "role": "Operational advisor",
+          "linkedin": "sylvia-lo-1a23594b",
+          "url": "sylvia-lo-1a23594b",
+          "description": "<p>Sylvia is&nbsp;a&nbsp;Financial Services professional with over 10 years’ experience in&nbsp;the banking industry. She is&nbsp;an&nbsp;SME on&nbsp;compliance and has coached over 2000 advisers on&nbsp;how to&nbsp;improve their advice processes.<br />With a&nbsp;passion for innovation and an&nbsp;entrepreneurial spirit, she is&nbsp;currently completing an&nbsp;MBA at&nbsp;Melbourne Business School. Heavily involved in&nbsp;the <nobr>Start-up</nobr> scene, she is&nbsp;currently the <nobr>co-president</nobr> of&nbsp;the Future Founders Club and runs a&nbsp;series of&nbsp;Masterclasses for current students and Alumni.</p>"
+
+        }
+    ],
+    "partners": [
+      {
+        "name": "Quakchain",
+        "class": null,
+        "logoUrl": "quarkchain.jpeg",
+        "url": "//quarkchain.io/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "Okkular",
+        "class": null,
+        "logoUrl": "okkular.png",
+        "url": "//www.okkular.io/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "Pragmatic DLT",
+        "class": null,
+        "logoUrl": "pragmatic.png",
+        "url": "//pragmaticdlt.com/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "Agile Legal",
+        "class": null,
+        "logoUrl": "agilelegal.png",
+        "url": "//www.agilelegal.com.au/",
+        "title": "",
+        "type": "dark"
+      },
+      {
+        "name": "Blockshine Advisory",
+        "class": null,
+        "logoUrl": "blockshine.jpeg",
+        "url": "//www.blockshine.com.au/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "DCG Tax agents",
+        "class": null,
+        "logoUrl": "gdc_logo.jpg",
+        "url": "//www.gdctax.com.au/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "Fashionex",
+        "class": null,
+        "logoUrl": "fashionex_logo.jpeg",
+        "url": "//www.fashionex.global/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "IFAB",
+        "class": null,
+        "logoUrl": "ifab.png",
+        "url": "//www.fashionadvisors.co/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "QUTCEA",
+        "class": null,
+        "logoUrl": "QUT-Logo-Blue.jpg",
+        "url": "//qutcea.com/",
+        "title": "",
+        "type": null
+
+      },
+      {
+        "name": "SUNLO",
+        "class": "sunlo",
+        "logoUrl": "sunlo.png",
+        "url": null,
+        "title": "",
+        "type": null
+
+      }
+
+
+    ],
+    "advisory": [
+    {
+        "name": "Susan Dart",
+        "role": "Blockchain Business Consultant",
+        "linkedin": "susan-dart-063620",
+        "jpg": "susan-dart-063620.jpg",
+        "png": null,
+        "description": "Susan Dart has over 35 years of experience in technical and Executive roles with start-up software companies as well as Fortune 100 business organisations in the USA and Australia. She is a blockchain business consultant, educator and ICO advisor, who has published her own books and journal articles about software management."
+      },
+      {
+        "name": "Apurva Chiranewala",
+        "role": "VP – Strategy & Partnerships, Sendle",
+        "linkedin": "apurva-chiranewala-9a24105",
+        "jpg": "apurva-chiranewala-9a24105.jpg",
+        "png": null,
+        "description": "Apurva has over 14 years’ experience in heading key strategic functions for global businesses including – eBay (AUS), Snapdeal.com (IND), Catch Group (AUS), Tesco (UK), CEB (USA). In his current role as VP, Strategy & Partnerships at Sendle – he is building Australia’s most efficient, carbon-neutral, and customer-centric courier business that is focused on providing an edge to online retailers."
+      },
+      {
+        "name": "Amelie Mongraine",
+        "role": "FASHIONEX",
+        "linkedin": "fashionex",
+        "jpg": "fashionex.jpg",
+        "png": null,
+        "description": "Co-founder of FASHIONEX, with 20 years of experience in the fashion and textile industry as a fashion entrepreneur, educator, and coach"
+      },
+      {
+        "name": "Vincent Djen",
+        "role": "FASHIONEX",
+        "linkedin": "vincentdjen",
+        "jpg": "vincentdjen.jpg",
+        "png": null,
+        "description": "Co-founder of FASHIONEX, a fashion innovator and connector with 12 years + experience, Vincent has worked with major brands and young start ups in Europe and North America"
+      },
+      {
+        "name": "Dmitry Omelechko",
+        "role": "AI & ML ADVISOR",
+        "linkedin": "dmitry-omelechko-27758022",
+        "jpg": null,
+        "png": "dmitry-omelechko-27758022.png",
+        "description": "<p>Dima has many years of&nbsp;experience behind in&nbsp;designing and building complex <nobr>high-load</nobr> IT&nbsp;systems in&nbsp;Distributed and Concurring Computing (DCC). Machine Learning and Data Mining are his daily routine. Dima has built several applied Computer Vision products, including the highly demanding algorithm for <nobr>real-time</nobr> event recognition.</p>"
+      },
+      {
+        "name": "Jianyin Roachell",
+        "role": "PREDICTIVE ANALYTICS SPECIALIST",
+        "linkedin": "jianyin-roachell",
+        "jpg": "jianyin-roachell.jpg",
+        "png": null,
+        "description": "With a strong startup background, Jianyin is a SAS Predictive Analytics Specialist with a working-history in NLP machine learning, supply chain and IT industry"
+      },
+      {
+        "name": "Raajiv Sami",
+        "role": "Finance Advisor",
+        "linkedin": "raajiv-sami-a72a2b15",
+        "jpg": "raajiv-sami-a72a2b15.jpg",
+        "png": null,
+        "description": "Raajiv is a serial entrepreneur, with a history of strategic consulting for start-ups in wealth management, fin-tech and blockchain. Combining deep digital expertise with a global network of professionals to lean, he is a resourceful and results focused individual who brings creativity to problem solving and project management."
+      },
+      {
+        "name": "Jessica Watson",
+        "role": "VISUAL DESIGNER",
+        "linkedin": "jessica-watson-6a556a73",
+        "jpg": "jessica-watson-6a556a73.jpg",
+        "png": null,
+        "description": "Senior graphics designer with 7 years of visual design and marketing experience across industry leading agencies in Melbourne, London and Shanghai"
+      },
+      {
+        "name": "Jonathan Chan",
+        "role": "CORPORATE STRATEGY",
+        "linkedin": "jonathan-chan-a5342a104",
+        "jpg": "jonathan-chan-a5342a104.jpg",
+        "png": null,
+        "description": "Manager for Global Strategy Group at KPMG with 8 years + experience in corporate strategy, market entry, commercial due diligence for startups and established businesses across a diverse range of sectors & markets."
+      }
+
+    ],
+    "technology": [
+      {
+        "icon": "artificial",
+        "type": "ai",
+        "title": "ARTIFICIAL INTELLIGENCE",
+        "description": "AI and Machine Learning are key components of Cirkle which is aimed at delivering a seamless user experience. Using machine learning algorithms, we can build data models within our system that can define style, image, and fitting to optimise the sharing economy experience."
+      },
+      {
+        "icon": "blockchain-border",
+        "type": "blockchain",
+        "title": "BLOCKCHAIN",
+        "description": "Blockchain will transform the Cirkle platform into a decentralised marketplace that directly connects consumers and businesses. All transactions are traceable to allow all parties to transact with trust and transparency. No rules imposed by third parties with the application of smart contracts and decentralised escrows."
+      },
+      {
+        "icon": "token",
+        "type": "token",
+        "title": "TOKENISATION",
+        "description": "Cirkle tokens are a unique currency and feature of the platform. Tokens are fundamental to our user scorecard system by making transactions, generating content, positive community interactions and popularity. Tokens will drive economic growth as users will see the value of their tokens increase as the network grows, resulting in a collective incentive."
+      }
+    ],
+    "file": {
+        "title": "Download White Paper",
+        "url": "/data/wp.pdf"
+      },
+    "for_consumers": [
+        {
+          "title": "Co-Buy",
+          "type": "co-buy",
+          "text": "Never pay full price on an item again. By sharing the cost of your purchase with another party, it allows you to access more without the cost."
+        },
+        {
+          "title": "Lease",
+          "type": "lease",
+          "text": "Rent and Lend designer outfits easily through our secure all-in-one platform. "
+        },
+        {
+          "title": "Re-Sale",
+          "type": "re-sale",
+          "text": "Give your preloved or unwanted items a new life, in seconds.  It’s easy as snap, list and sell."
+        },
+        {
+          "title": "Score Card",
+          "type": "scorecard",
+          "text": "Incentivising beneficial collaboration & value-added services. Be rewarded for transactional activities and social contribution with our unique tokens. Set trends and provide feedback on content through posts, clicks and surveys to up your scorecard."
+        },
+        {
+          "title": "Secure Transactions",
+          "type": "payments",
+          "text": "Blockchain technology underpins the Cirkle platform - providing security via smart contracts and escrows to protect buyer and sellers."
+        } 
+      
+    ],
+    "for_businesses": [
+      {
+        "title": "BIG DATA",
+        "type": "big_data",
+        "text": null
+      },
+      {
+        "title": "CONSUMER REPORTS",
+        "type": "consumers_report",
+        "text": "Make profitable decisions with clean data and analytics. Direct from the source data is collated and analysed to provide you with accurate and live data trend reports and consumer statistics."
+      },
+      {
+        "title": "ANAYLTICS",
+        "type": "analytics",
+        "text": null
+      }
+
+    ],
+    "actions": [
+        {
+          "title": "Co-Buy",
+          "icon": "co-buy"
+        },
+        {
+          "title": "Lease",
+          "icon": "lease"
+    
+        },
+        {
+          "title": "Re-sale",
+          "icon": "re-sale"
+    
+        } 
+    ]
+}

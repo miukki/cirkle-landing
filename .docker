@@ -1,0 +1,43 @@
+Run package manager
+```
+yarn
+```
+
+Run container
+```
+docker stop $(docker ps -a -q)
+docker build -t cirklecobuytech .
+docker run -d -p 3000:3000 cirklecobuytech:latest
+```
+
+Go to container
+```
+docker exec -it <id> bash
+```
+
+
+By using docker-compose
+```
+docker-compose build
+docker-compose up -d
+```
+
+Check that project is running
+```
+lsof -i :3000
+```
+
+Stop all containers
+```
+docker-compose down #or
+docker stop $(docker ps -a -q)
+```
+
+
+How to add vi to container
+```
+Docker exec -it <container> bash
+
+apt-get update
+apt-get install vim
+```
